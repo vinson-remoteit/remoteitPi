@@ -1,0 +1,18 @@
+{
+    "description": "remote.it will provide quick, easy and safe way to connect to your device from anywhere.",
+    "kernel": "4.19",
+    "name": "remoteitPi",
+    "password": "remoteit",
+    "release_date": "2020-2-4",
+    "supported_models": [
+        "Pi Model",
+        "Pi 2",
+        "Pi Zero",
+        "Pi 3",
+        "Pi Compute Module 3",
+        "Pi 4"
+    ],
+    "url": "https://remote.it/",
+    "username": "remoteitpi",
+    "version": "buster"
+}
