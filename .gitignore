@@ -1,0 +1,7 @@
+#
+# basic gitignore
+#
+
+# do not check in DS_Store on mac
+**/.DS_Store
+
