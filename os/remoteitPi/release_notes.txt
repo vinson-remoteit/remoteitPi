@@ -1,9 +1,12 @@
+2020-02-28:
+  * Add auto registration feature
+  * Enable SSH service with startup
 2020-02-14:
   * Update remote.it Web UI to version 2.5.6
   * Uncomment "hdmi_force_hotplug=1" parameter in /boot/config.txt for VNC access with headless
 2020-02-13:
   * Update remote.it Web UI to current version
 2020-02-06:
-  * disable SSH service with startup, enable VNC service with startup
+  * Disable SSH service with startup, enable VNC service with startup
 2020-02-05:
   * First build date

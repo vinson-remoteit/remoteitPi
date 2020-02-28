@@ -7,7 +7,7 @@
             "partition_size_nominal": 256,
             "uncompressed_tarball_size": 55,
             "want_maximised": false,
-            "sha256sum": "74bc5d529306b17a882c8826a8f15c58cc3b408957324ec1b5bab66927d8b915"
+            "sha256sum": "2ca53cb75a429759aaa2175db8ab66ff7297ad2473fd6ce29b0876743dafb8d3"
         },
         {
             "filesystem_type": "ext4",
@@ -16,7 +16,7 @@
             "partition_size_nominal": 6570,
             "uncompressed_tarball_size": 6160,
             "want_maximised": true,
-            "sha256sum": "bed6a1fe67f9a2224cf2e047998d284c4220afbb91ed8dc081e8b38fde4b55dd"
+            "sha256sum": "800220f5cd451a1f4874bdcfa1585029b859e13ff6bf45f0715e9e35817e0a5e"
         }
     ]
 }
