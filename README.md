@@ -47,3 +47,18 @@ Please type your remote.it account and password then click SIGN IN. If you have 
 ![readme-09-01](https://user-images.githubusercontent.com/42136920/79467604-e7944800-8038-11ea-8202-29c9b233578d.png)  
 10. Next, click ADD+ for adding the service you would like to connect to remotely. For example, add the VNC service on remote.itPi. After typing the information for VNC service, click the check mark.  
 ![readme-10-01](https://user-images.githubusercontent.com/42136920/79467685-02ff5300-8039-11ea-9582-2e6b618a5113.png)  
+![readme-10-02](https://user-images.githubusercontent.com/42136920/79470407-4e673080-803c-11ea-8d17-bc17ea5fc978.png)  
+11. Access https://app.remote.it.  
+You should see registered remote.itPi on your device list.  
+
+    Click “Device Name”,  
+    ![readme-11-01](https://user-images.githubusercontent.com/42136920/79470678-ab62e680-803c-11ea-92da-8cb55104981c.png)  
+
+    then, click “Service”  
+    ![readme-11-02](https://user-images.githubusercontent.com/42136920/79470941-f250dc00-803c-11ea-87a0-5dcbe12d07b8.png)  
+    
+    The information for accessing with VNC will be shown.  
+    ![readme-11-03](https://user-images.githubusercontent.com/42136920/79471026-0ac0f680-803d-11ea-8084-4f395ffc4d79.png)  
+12. remote.itPi OS default user is “pi“, password is “raspberry“.
+You can access VNC to this remote.itPi from anywhere!!
+![readme-12-01](https://user-images.githubusercontent.com/42136920/79471171-38a63b00-803d-11ea-945c-3cb98a6a2619.png)
