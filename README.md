@@ -34,35 +34,34 @@ The remote.itPi OS default user is “pi“, password is “raspberry“.  SSH(p
    }
    ```  
      
-   ![readme-03-02](https://user-images.githubusercontent.com/42136920/79466585-be26ec80-8037-11ea-866f-b2a86358ca24.png)  
+   ![readme-02-02](https://user-images.githubusercontent.com/42136920/79466585-be26ec80-8037-11ea-866f-b2a86358ca24.png)  
    
 3. Insert the SD card into remote.itPi device and connect to a wired cable. (When using Wi-Fi, no wired cable connection is required) Connect the power cable, then Raspberry Pi will be boot.  
 4. Then access the following website in web browser.  MAKE SURE ANY POP-UP BLOCKER SOFTWARE IS DISABLED ON YOUR BROWSER FOR THE DOMAIN “x.remote.it” or the web pages may not load correctly.  
 http://find.remote.it (not https, at this point)  
 5. The following page will be shown and start to search your remote.itPi device.  
-![readme-06-01](https://user-images.githubusercontent.com/42136920/79466963-368dad80-8038-11ea-8f1b-2e678523d9ce.png)  
+![readme-05-01](https://user-images.githubusercontent.com/42136920/79466963-368dad80-8038-11ea-8f1b-2e678523d9ce.png)  
 6. Your remote.itPi device should be found. Click CONNECT.  
 If you cannot find your device, please reload your web browser or wait a few minutes and try again.  
 ![readme-06-01](https://user-images.githubusercontent.com/42136920/79590315-cbb0a500-8111-11ea-9764-5d217d406317.png)  
 7. The following page will be shown.  
 ![readme-07-01](https://user-images.githubusercontent.com/42136920/79590580-306bff80-8112-11ea-88ae-19bd87faab84.png)  
 Please type your remote.it account and password then click SIGN IN. If you have not created an remote.it account yet, go to “Create an account” page for one.   
-8. For the first time, register the your remote.itPi. Enter the Device Name and click REGISTER.  
+8. Register your remote.itPi device. And adding 3 services by default. Enter the Device Name and click REGISTER.  
 ![readme-08-01](https://user-images.githubusercontent.com/42136920/79590723-7032e700-8112-11ea-8a38-7d3d4f3cca97.png)  
-9. Next, click ADD+ for adding the service you would like to connect to remotely. For example, add the VNC service on remote.itPi. After typing the information for VNC service, click the check mark.  
-![readme-10-01](https://user-images.githubusercontent.com/42136920/79467685-02ff5300-8039-11ea-9582-2e6b618a5113.png)  
-![readme-10-02](https://user-images.githubusercontent.com/42136920/79470407-4e673080-803c-11ea-8d17-bc17ea5fc978.png)  
-10. Access https://app.remote.it.  
+![readme-08-02](https://user-images.githubusercontent.com/42136920/79591959-3cf15780-8114-11ea-8d5e-c9b2c01a4edf.png)  
+Device registration is now complete. Your remote.itPi device will appear in your device list of web portal.  
+9. Access https://app.remote.it.  
 You should see registered remote.itPi on your device list.  
 
     Click “Device Name”,  
-    ![readme-11-01](https://user-images.githubusercontent.com/42136920/79470678-ab62e680-803c-11ea-92da-8cb55104981c.png)  
+    ![readme-09-01](https://user-images.githubusercontent.com/42136920/79592169-92c5ff80-8114-11ea-91fa-477c227f1046.png)  
 
     then, click “Service”  
-    ![readme-11-02](https://user-images.githubusercontent.com/42136920/79470941-f250dc00-803c-11ea-87a0-5dcbe12d07b8.png)  
+    ![readme-09-02](https://user-images.githubusercontent.com/42136920/79592256-b38e5500-8114-11ea-8553-4bc9e4ec6e06.png)  
     
     The information for accessing with VNC will be shown.  
-    ![readme-11-03](https://user-images.githubusercontent.com/42136920/79471026-0ac0f680-803d-11ea-8084-4f395ffc4d79.png)  
-11. remote.itPi OS default user is “pi“, password is “raspberry“.
+    ![readme-09-03](https://user-images.githubusercontent.com/42136920/79592414-ee908880-8114-11ea-8320-6e7f0aa28449.png)  
+10. remote.itPi OS default user is “pi“, password is “raspberry“.
 You can access VNC to this remote.itPi from anywhere!!
-![readme-12-01](https://user-images.githubusercontent.com/42136920/79471171-38a63b00-803d-11ea-945c-3cb98a6a2619.png)
+![readme-10-01](https://user-images.githubusercontent.com/42136920/79471171-38a63b00-803d-11ea-945c-3cb98a6a2619.png)
