@@ -62,6 +62,8 @@ You should see registered remote.itPi on your device list.
     
     The information for accessing with VNC will be shown.  
     ![readme-09-03](https://user-images.githubusercontent.com/42136920/79592414-ee908880-8114-11ea-8320-6e7f0aa28449.png)  
-10. remote.itPi OS default user is “pi“, password is “raspberry“.
+10. Open your VNC client application and input URL for connect to remote.itPi.  
+![readme-10-01](https://user-images.githubusercontent.com/42136920/79593074-e38a2800-8115-11ea-8fc6-34e3115b1283.png)
+11. remote.itPi OS default user is “pi“, password is “raspberry“.
 You can access VNC to this remote.itPi from anywhere!!
 ![readme-10-01](https://user-images.githubusercontent.com/42136920/79471171-38a63b00-803d-11ea-945c-3cb98a6a2619.png)
