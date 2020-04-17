@@ -55,10 +55,10 @@ Device registration is now complete. Your remote.itPi device will appear in your
 You should see registered remote.itPi on your device list.  
 
     Click “Device Name”,  
-    ![readme-09-01](https://user-images.githubusercontent.com/42136920/79592169-92c5ff80-8114-11ea-91fa-477c227f1046.png)  
+    ![readme-09-01](https://user-images.githubusercontent.com/42136920/79592786-7d9da080-8115-11ea-90b6-a9280602c17f.png)  
 
     then, click “Service”  
-    ![readme-09-02](https://user-images.githubusercontent.com/42136920/79592256-b38e5500-8114-11ea-8553-4bc9e4ec6e06.png)  
+    ![readme-09-02](https://user-images.githubusercontent.com/42136920/79592797-81312780-8115-11ea-8743-b432b1198b2f.png)  
     
     The information for accessing with VNC will be shown.  
     ![readme-09-03](https://user-images.githubusercontent.com/42136920/79592414-ee908880-8114-11ea-8320-6e7f0aa28449.png)  
