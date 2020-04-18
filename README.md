@@ -55,18 +55,21 @@ The remote.itPi OS default user is “pi“, password is “raspberry“.  SSH(p
 ## Using the remote.it Web Portal
 You can also use the [remote.it web portal](https://app.remote.it) to connect to your remote.itPi device. You can view it on the web portal's "Devices" page. 
 
-1. Find and click on your remote.itPi device name.
-    ![readme-09-01](https://user-images.githubusercontent.com/42136920/79592786-7d9da080-8115-11ea-90b6-a9280602c17f.png)  
+1. Find and click on your remote.itPi device name.  
+![readme-09-01](https://user-images.githubusercontent.com/42136920/79592786-7d9da080-8115-11ea-90b6-a9280602c17f.png)  
 
-2. You will be prompted with a dialog window that shows all the available services on your remote.itPi device. Click on a service name to start a connection.
-    ![readme-09-02](https://user-images.githubusercontent.com/42136920/79592797-81312780-8115-11ea-8743-b432b1198b2f.png)  
+2. You will be prompted with a dialog window that shows all the available services on your remote.itPi device. Click on a service name to start a connection.  
+![readme-09-02](https://user-images.githubusercontent.com/42136920/79592797-81312780-8115-11ea-8743-b432b1198b2f.png)  
     
-3. When a connection is established, you will see information on how to access the service. Here is an example of the information for accessing the device via VNC service:
-    ![readme-09-03](https://user-images.githubusercontent.com/42136920/79592414-ee908880-8114-11ea-8320-6e7f0aa28449.png)  
-4. Open your VNC client application and input the provided URL to connect to your remote.itPi.
-![readme-10-01](https://user-images.githubusercontent.com/42136920/79593074-e38a2800-8115-11ea-8fc6-34e3115b1283.png)
+3. When a connection is established, you will see information on how to access the service. Here is an example of the information for accessing the device via VNC service:  
+![readme-09-03](https://user-images.githubusercontent.com/42136920/79592414-ee908880-8114-11ea-8320-6e7f0aa28449.png)  
+
+4. Open your VNC client application and input the provided URL to connect to your remote.itPi.  
+![readme-10-01](https://user-images.githubusercontent.com/42136920/79641075-332d2a00-81d0-11ea-9ca3-d65935c888be.png)  
+
 5. You will be prompted to enter a username and password. The default login information for remote.itPi is:
-- Username: pi
-- Password: raspberry
-![readme-10-01](https://user-images.githubusercontent.com/42136920/79471171-38a63b00-803d-11ea-945c-3cb98a6a2619.png)
+- Username: pi  
+- Password: raspberry  
+![readme-10-01](https://user-images.githubusercontent.com/42136920/79471171-38a63b00-803d-11ea-945c-3cb98a6a2619.png)  
+
 6. You can now access VNC to this remote.itPi from anywhere!
