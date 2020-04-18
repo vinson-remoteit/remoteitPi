@@ -5,65 +5,65 @@ Download, unzip, and burn the “remote.itPi.img” image file to an SD card, in
 
 The remote.itPi OS default user is “pi“, password is “raspberry“.  SSH(port 22) and VNC(port 5900/tcp) are both enabled automatically in this SD Card image.  Make sure to change the Pi password using the “sudo raspi-config” utility after boot up as described in the detailed step-by-step instructions. In addition, root password is not set by default for security perspective. If you would like to set the password for root, you can run command "sudo passwd root".
 
+# What You'll Need Before Installing
+- [remote.itPiImg.zip](https://github.com/remoteit/remoteitPi/releases)
+- Formatted MicroSD card (8GB minimum)
+- MicroSD card reader
+- [Raspberry Pi Imager](https://www.raspberrypi.org/downloads/ ) (To write the Pi Image onto SD card)
+
 # Getting started remote.itPi
-1. Download remote.itPi.img.zip to your laptop.  
-   https://github.com/remoteit/remoteitPi/releases
 
-2. Prepare a formatted SD card. Write the img to the formatted SD card. We recommend using Raspberry Pi Imager.  
-   https://www.raspberrypi.org/downloads/  
-   When selecting the Operating System, choose “Custom” and then select remote.itPi.img.zip.  
-   ![readme-02](https://user-images.githubusercontent.com/42136920/79465318-2543a180-8036-11ea-8a50-a47578932725.png)
+## Preparing the remote.itPi Image 
+1. Download [remote.itPi.img.zip](https://github.com/remoteit/remoteitPi/releases) onto your laptop/desktop if you haven't done so already.
 
-   ### TIPS  
-   If you want to put the remote.itPi device to your Wi-Fi, you can just edit wpa_supplicant.conf in /boot before inserting SD card to Raspberry pi. Please edit ```ssid=”YOUR SSID”``` and ```psk=”YOUR PASSPHRASE”```. Also, set ```country=US``` to an appropriate value. (your location)
-     
-   File name: wpa_supplicant.conf  
-   ```  
-   country=US  
-   ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev  
-   update_config=1  
+2. Unzip the downloaded .zip file. You should see **remote.itPi.img**. 
 
-   network={
-       ssid="remote.itPi"
-       psk="remote.itPi"
-   }
+3. Connect the microSD card reader with the formatted microSD into your laptop or desktop. (If you haven't formatted your microSD, you can use **Raspberry Pi Imager** to do so.)
 
-   network={
-       ssid="YOUR SSID"
-       psk="YOUR PASSPHRASE"
-   }
-   ```  
+4. Launch **Raspberry Pi Imager**. 
+- Under "Operating System," click the <b>CHOOSE OS</b> button. When prompted, select <b>Use custom</b>, then locate and select the the remote.itPi.img you extracted back in Step 2.
+- Under "SD Card," click the <b>CHOOSE SD CARD</b> button. When prompted, select your formatted microSD.
+- Click the <b>WRITE</b> button to begin writing the Pi Image onto the microSD. This process will take a few minutes. 
+
+![readme-02](https://user-images.githubusercontent.com/42136920/79465318-2543a180-8036-11ea-8a50-a47578932725.png)
+
+5. If you plan on connecting the Raspberry Pi to the internet via Ethernet, you can skip this step. If you plan on connecting the Raspberry Pi to the internet via Wi-Fi, please follow the instructions below:
+- Navigate to the microSD's file directory and open <b>wpa_supplicant.conf</b> in a text editor.
+- Edit ```ssid="YOUR SSID""``` with the name of your Wi-Fi network and ```psk=""YOUR PASSPHRASE``` with the password to your Wi-Fi network.
+- Edit ```country=US``` to your country location. 
      
    ![readme-02-02](https://user-images.githubusercontent.com/42136920/79466585-be26ec80-8037-11ea-866f-b2a86358ca24.png)  
    
-3. Insert the SD card into remote.itPi device and connect to a wired cable. (When using Wi-Fi, no wired cable connection is required) Connect the power cable, then Raspberry Pi will be boot.  
-4. Then access the following website in web browser.  MAKE SURE ANY POP-UP BLOCKER SOFTWARE IS DISABLED ON YOUR BROWSER FOR THE DOMAIN “x.remote.it” or the web pages may not load correctly.  
-http://find.remote.it (not https, at this point)  
-5. The following page will be shown and start to search your remote.itPi device.  
+## Installing the Image
+6. Insert the microSD card into Raspberry Pi and connect it to the internet via Ethernet (If you configured the Wi-Fi to the Raspberry Pi from Step 5, you don't need an Ethernet). 
+7. Connect the power cable to the Raspberry Pi to power on the device. 
+8. From your computer, open your browser and navigate to the following: http://find.remote.it. **(Note: Make sure you disable any pop-up blocker extensions or software for the domain "x.remote.it" or this webpage may not load properly.)**  
+9. The webpage will start to search for your Raspberry Pi. If your Raspberry Pi isn't detected after the initial search, wait a few minutes and before clicking **Search again**.
 ![readme-05-01](https://user-images.githubusercontent.com/42136920/79466963-368dad80-8038-11ea-8f1b-2e678523d9ce.png)  
-6. Your remote.itPi device should be found. Click CONNECT.  
-If you cannot find your device, please reload your web browser or wait a few minutes and try again.  
+10. Once your Raspberry Pi is detected, click **CONNECT**.    
 ![readme-06-01](https://user-images.githubusercontent.com/42136920/79590315-cbb0a500-8111-11ea-9764-5d217d406317.png)  
-7. The following page will be shown.  
+11. You will be prompted to log in to your remote.it account. If you have not created a remote.it account, click "Create an account" to create one.  
 ![readme-07-01](https://user-images.githubusercontent.com/42136920/79590580-306bff80-8112-11ea-88ae-19bd87faab84.png)  
-Please type your remote.it account and password then click SIGN IN. If you have not created an remote.it account yet, go to “Create an account” page for one.   
-8. Register your remote.itPi device. And adding 3 services by default. Enter the Device Name and click REGISTER.  
+12. Register your Raspberry Pi by confirming the device name and clicking **REGISTER**. You also have the option to choose which services to register to your device.
 ![readme-08-01](https://user-images.githubusercontent.com/42136920/79590723-7032e700-8112-11ea-8a38-7d3d4f3cca97.png)  
 ![readme-08-02](https://user-images.githubusercontent.com/42136920/79591959-3cf15780-8114-11ea-8d5e-c9b2c01a4edf.png)  
-Device registration is now complete. Your remote.itPi device will appear in your device list of web portal.  
-9. Access https://app.remote.it.  
-You should see registered remote.itPi on your device list.  
+13. Congratulations! Your Raspberry Pi is now registered to remote.it! You should see your remote.itPi device appear on the Devices tab.
 
-    Click “Device Name”,  
+## Using the remote.it Web Portal
+You can also use the [remote.it web portal](https://app.remote.it) to connect to your remote.itPi device. You can view it on the Devices page. 
+
+1. Find and click on your remote.itPi device name.
     ![readme-09-01](https://user-images.githubusercontent.com/42136920/79592786-7d9da080-8115-11ea-90b6-a9280602c17f.png)  
 
-    then, click “Service”  
+2. You will be prompted with a dialog window that shows you all the available services on your remote.itPi device. Click on a service name to start a connection.
     ![readme-09-02](https://user-images.githubusercontent.com/42136920/79592797-81312780-8115-11ea-8743-b432b1198b2f.png)  
     
-    The information for accessing with VNC will be shown.  
+3. When a connection is made, you will see information for accessing the service. Here is an example of the information for accessing the device via VNC:
     ![readme-09-03](https://user-images.githubusercontent.com/42136920/79592414-ee908880-8114-11ea-8320-6e7f0aa28449.png)  
-10. Open your VNC client application and input URL for connect to remote.itPi.  
+4. Open your VNC client application and input the provided URL to connect to your remote.itPi.
 ![readme-10-01](https://user-images.githubusercontent.com/42136920/79593074-e38a2800-8115-11ea-8fc6-34e3115b1283.png)
-11. remote.itPi OS default user is “pi“, password is “raspberry“.
-You can access VNC to this remote.itPi from anywhere!!
+5. You will be prompted to enter a username and password. The default login information for remote.itPi is:
+- Username: pi
+- Password: raspberry
 ![readme-10-01](https://user-images.githubusercontent.com/42136920/79471171-38a63b00-803d-11ea-945c-3cb98a6a2619.png)
+6. You can now access VNC to this remote.itPi from anywhere!
