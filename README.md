@@ -6,19 +6,19 @@ Download, unzip, and burn the “remote.itPi.img” image file to an SD card, in
 The remote.itPi OS default user is “pi“, password is “raspberry“.  SSH(port 22) and VNC(port 5900/tcp) are both enabled automatically in this SD Card image.  Make sure to change the Pi password using the “sudo raspi-config” utility after boot up as described in the detailed step-by-step instructions. In addition, root password is not set by default for security perspective. If you would like to set the password for root, you can run command "sudo passwd root".
 
 # What You'll Need Before Installing
-- [remote.itPiImg.zip](https://github.com/remoteit/remoteitPi/releases) downloaded onto your computer
-- Formatted microSD card (8GB minimum)
+- [remote.itPi Image .zip](https://github.com/remoteit/remoteitPi/releases) downloaded onto your computer
+- Formatted microSD card
 - microSD card reader
 - [Raspberry Pi Imager](https://www.raspberrypi.org/downloads/ ) (To write the remote.itPi image onto the microSD)
 
 # Getting started remote.itPi
 
 ## Preparing the remote.itPi Image 
-1. Download [remote.itPi.img.zip](https://github.com/remoteit/remoteitPi/releases) onto your laptop/desktop if you haven't done so already.
+1. Download the [remoteit.Pi Image .zip](https://github.com/remoteit/remoteitPi/releases) onto your laptop/desktop if you haven't done so already.
 
-2. Extract the contents of the .zip file.
+2. Extract the contents of the .zip file onto your computer.
 
-3. Connect your microSD card reader (with the formatted microSD inserted) to your computer. (If you haven't formatted your microSD, you can use Raspberry Pi Imager to do so.)
+3. Connect your microSD card reader with the formatted microSD inserted to your computer. (If you haven't formatted your microSD, you can use Raspberry Pi Imager to do so.)
 
 4. Launch Raspberry Pi Imager. 
 - Under "Operating System," click **CHOOSE OS**. When prompted, select the <**Use custom** option. Locate and select **remote.itPi.img** that you extracted from the .zip file.
