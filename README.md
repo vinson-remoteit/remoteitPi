@@ -6,7 +6,7 @@ Download, unzip, and burn the “remote.itPi.img” image file to an SD card, in
 The remote.itPi OS default user is “pi“, password is “raspberry“.  SSH(port 22) and VNC(port 5900/tcp) are both enabled automatically in this SD Card image.  Make sure to change the Pi password using the “sudo raspi-config” utility after boot up as described in the detailed step-by-step instructions. In addition, root password is not set by default for security perspective. If you would like to set the password for root, you can run command "sudo passwd root".
 
 # What You'll Need Before Installing
-- Download [remote.itPiImg.zip](https://github.com/remoteit/remoteitPi/releases)
+- [remote.itPiImg.zip](https://github.com/remoteit/remoteitPi/releases) downloaded onto your computer
 - Formatted microSD card (8GB minimum)
 - microSD card reader
 - [Raspberry Pi Imager](https://www.raspberrypi.org/downloads/ ) (To write the remote.itPi image onto the microSD)
