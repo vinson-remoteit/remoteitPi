@@ -5,16 +5,16 @@ Download, unzip, and burn the “remote.itPi.img” image file to an SD card, in
 
 The remote.itPi OS default user is “pi“, password is “raspberry“.  SSH(port 22) and VNC(port 5900/tcp) are both enabled automatically in this SD Card image.  Make sure to change the Pi password using the “sudo raspi-config” utility after boot up as described in the detailed step-by-step instructions. In addition, root password is not set by default for security perspective. If you would like to set the password for root, you can run command "sudo passwd root".
 
-# What You'll Need Before Installing
-- [remote.itPi Image .zip](https://github.com/remoteit/remoteitPi/releases) downloaded onto your computer
+# What you'll need before installing
+- [remote.itPi Image .zip](https://downloads.remote.it/pi/latest/remote.itPi.img.zip) downloaded onto your computer
 - Formatted microSD card
 - microSD card reader
 - [Raspberry Pi Imager](https://www.raspberrypi.org/downloads/ ) (To write the remote.itPi image onto the microSD)
 
-# Getting started remote.itPi
+# remote.itPi Installation
 
 ## Preparing the remote.itPi Image 
-1. Download the [remoteit.Pi Image .zip](https://github.com/remoteit/remoteitPi/releases) onto your laptop/desktop if you haven't done so already.
+1. Download the [remoteit.Pi Image .zip](https://downloads.remote.it/pi/latest/remote.itPi.img.zip) onto your laptop/desktop if you haven't done so already.
 
 2. Extract the contents of the .zip file onto your computer.
 
@@ -30,7 +30,7 @@ The remote.itPi OS default user is “pi“, password is “raspberry“.  SSH(p
 5. If you plan on connecting the remote.itPi device to the internet via Ethernet, you can skip this step and continue to Step 6. If you plan on connecting the remote.itPi device to the internet via Wi-Fi, follow the instructions below:
 - Navigate to the microSD's file directory and open **wpa_supplicant.conf** in a text editor.
 - On the line that says ```ssid="YOUR SSID"```, replace ```YOUR SSID``` with the name of your Wi-Fi network. (Example: ```ssid="MyWiFi123"```)
-- On the line that says ```psk="YOUR PASSPHRASE"```, replace ```YOUR PASSPHRASE``` with the password to your Wi-Fi network.(```psk="P@ssword"```
+- On the line that says ```psk="YOUR PASSPHRASE"```, replace ```YOUR PASSPHRASE``` with the password to your Wi-Fi network.(Example: ```psk="P@ssword"```)
 - On the line that says ```country=US```, replace ```US``` with your country code. 
 - Save the file.
      
