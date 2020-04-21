@@ -25,7 +25,7 @@ The remote.itPi OS default user is “pi“, password is “raspberry“.  SSH(p
 - Under "SD Card," click **CHOOSE SD CARD**. When prompted, select your formatted microSD.
 - Click **WRITE** to begin writing the remote.itPi image onto the microSD. This process will take a few minutes. 
 
-![readme-02](https://user-images.githubusercontent.com/42136920/79465318-2543a180-8036-11ea-8a50-a47578932725.png)
+<img src="https://user-images.githubusercontent.com/42136920/79465318-2543a180-8036-11ea-8a50-a47578932725.png" width="500">
 
 5. If you plan on connecting the remote.itPi device to the internet via Ethernet, you can skip this step and continue to Step 6. If you plan on connecting the remote.itPi device to the internet via Wi-Fi, follow the instructions below:
 - Navigate to the microSD's file directory and open **wpa_supplicant.conf** in a text editor.
@@ -34,7 +34,7 @@ The remote.itPi OS default user is “pi“, password is “raspberry“.  SSH(p
 - On the line that says ```country=US```, replace ```US``` with your country code. 
 - Save the file.
      
-   ![readme-02-02](https://user-images.githubusercontent.com/42136920/79466585-be26ec80-8037-11ea-866f-b2a86358ca24.png)  
+   <img src="https://user-images.githubusercontent.com/42136920/79466585-be26ec80-8037-11ea-866f-b2a86358ca24.png" width="500">
    
 ## Installing the Image
 6. Remove the microSD from the card reader and insert it into the remote.itPi. If you are connecting the remote.itPi to the internet via Ethernet, plug the cable into the remote.itPi. 
@@ -42,34 +42,39 @@ The remote.itPi OS default user is “pi“, password is “raspberry“.  SSH(p
 8. From your computer, open your browser and navigate to: http://find.remote.it. **(Note: Make sure you disable any pop-up blocker extensions or software for the domain "x.remote.it" or this webpage may not load properly.)**  
 9. The webpage will start to search for your remote.itPi device. If your device isn't detected after the initial search, wait a minute, then click **Search again**.
 - Note: If your device isn't detected after a few search attempts, make sure your Wi-Fi credentials are correct in the **wpa_supplicant.conf** file (if the device is connected Wi-Fi) or that the Ethernet is connected properly. 
-![readme-05-01](https://user-images.githubusercontent.com/42136920/79466963-368dad80-8038-11ea-8f1b-2e678523d9ce.png)  
+<img src="https://user-images.githubusercontent.com/42136920/79466963-368dad80-8038-11ea-8f1b-2e678523d9ce.png" width="500">  
+
 10. Once your remote.itPi is detected, click **CONNECT** to connect to it.    
-![readme-06-01](https://user-images.githubusercontent.com/42136920/79590315-cbb0a500-8111-11ea-9764-5d217d406317.png)  
+<img src="https://user-images.githubusercontent.com/42136920/79465318-2543a180-8036-11ea-8a50-a47578932725.png" width="500">  
+
 11. You will be prompted to log in to your remote.it account. If you have not created a remote.it account, click "Create an account" to create one.  
-![readme-07-01](https://user-images.githubusercontent.com/42136920/79590580-306bff80-8112-11ea-88ae-19bd87faab84.png)  
+<img src="https://user-images.githubusercontent.com/42136920/79590580-306bff80-8112-11ea-88ae-19bd87faab84.png" width="500">  
+
 12. Once you log in, you will be prompted to register your remote.itPi by providing a name for it. Enter a name, then click **REGISTER**.
-![readme-08-01](https://user-images.githubusercontent.com/42136920/79590723-7032e700-8112-11ea-8a38-7d3d4f3cca97.png)  
-![readme-08-02](https://user-images.githubusercontent.com/42136920/79591959-3cf15780-8114-11ea-8d5e-c9b2c01a4edf.png)  
-13. Congratulations! Your remote.itPi is now registered to remote.it! You can now connect to your remote.itPi from any device with remote.it installed.
+<img src="https://user-images.githubusercontent.com/42136920/79590723-7032e700-8112-11ea-8a38-7d3d4f3cca97.png" width="500">  
+  
+<img src="https://user-images.githubusercontent.com/42136920/79591959-3cf15780-8114-11ea-8d5e-c9b2c01a4edf.png" width="500">  
+
+13. Congratulations! Your remote.itPi is now registered to remote.it! You can now connect to your remote.itPi from any device with remote.it installed.  
 
 ## Using the remote.it Web Portal
-You can also use the [remote.it web portal](https://app.remote.it) to connect to your remote.itPi device. You can view it on the web portal's "Devices" page. 
+You can also use the [remote.it web portal](https://app.remote.it) to connect to your remote.itPi device. You can view it on the web portal's "Devices" page.  
 
 1. Find and click on your remote.itPi device name.  
-![readme-09-01](https://user-images.githubusercontent.com/42136920/79592786-7d9da080-8115-11ea-90b6-a9280602c17f.png)  
+<img src="https://user-images.githubusercontent.com/42136920/79592786-7d9da080-8115-11ea-90b6-a9280602c17f.png" width="500">
 
 2. You will be prompted with a dialog window that shows all the available services on your remote.itPi device. Click on a service name to start a connection.  
-![readme-09-02](https://user-images.githubusercontent.com/42136920/79592797-81312780-8115-11ea-8743-b432b1198b2f.png)  
+<img src="https://user-images.githubusercontent.com/42136920/79592797-81312780-8115-11ea-8743-b432b1198b2f.png" width="500">
     
 3. When a connection is established, you will see information on how to access the service. Here is an example of the information for accessing the device via VNC service:  
-![readme-09-03](https://user-images.githubusercontent.com/42136920/79592414-ee908880-8114-11ea-8320-6e7f0aa28449.png)  
+<img src="https://user-images.githubusercontent.com/42136920/79592414-ee908880-8114-11ea-8320-6e7f0aa28449.png" width="500">
 
 4. Open your VNC client application and input the provided URL to connect to your remote.itPi.  
-![readme-10-01](https://user-images.githubusercontent.com/42136920/79641075-332d2a00-81d0-11ea-9ca3-d65935c888be.png)  
+<img src="https://user-images.githubusercontent.com/42136920/79641075-332d2a00-81d0-11ea-9ca3-d65935c888be.png" width="500">
 
 5. You will be prompted to enter a username and password. The default login information for remote.itPi is:
 - Username: pi  
 - Password: raspberry  
-![readme-10-01](https://user-images.githubusercontent.com/42136920/79471171-38a63b00-803d-11ea-945c-3cb98a6a2619.png)  
+<img src="https://user-images.githubusercontent.com/42136920/79471171-38a63b00-803d-11ea-945c-3cb98a6a2619.png" width="500">
 
 6. You can now access VNC to this remote.itPi from anywhere!
