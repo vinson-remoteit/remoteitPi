@@ -21,7 +21,7 @@ The remote.itPi OS default user is “pi“, password is “raspberry“.  SSH(p
 3. Connect your microSD card reader with the formatted microSD inserted to your computer. (If you haven't formatted your microSD, you can use Raspberry Pi Imager to do so.)
 
 4. Launch Raspberry Pi Imager. 
-- Under "Operating System," click **CHOOSE OS**. When prompted, select the <**Use custom** option. Locate and select **remote.itPi.img** that you extracted from the .zip file.
+- Under "Operating System," click **CHOOSE OS**. When prompted, select the **Use custom** option. Locate and select **remote.itPi.img** that you extracted from the .zip file.
 - Under "SD Card," click **CHOOSE SD CARD**. When prompted, select your formatted microSD.
 - Click **WRITE** to begin writing the remote.itPi image onto the microSD. This process will take a few minutes. 
 
