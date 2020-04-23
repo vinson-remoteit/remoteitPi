@@ -11,7 +11,7 @@ The remote.itPi OS default user is “pi“, password is “raspberry“.  SSH (
 - [remote.itPi Image .zip] (https://downloads.remote.it/pi/latest/remote.itPi.img.zip) downloaded onto your computer
 - Formatted micro SD card
 - micro SD card reader
-- [Raspberry Pi Imager] (https://www.raspberrypi.org/downloads/ ) (To write the remote.itPi image onto the microSD)
+- [Raspberry Pi Imager] (https://www.raspberrypi.org/downloads/ ) (To write the remote.itPi image onto the micro SD card)
 
 # remote.itPi Installation
 
@@ -20,12 +20,12 @@ The remote.itPi OS default user is “pi“, password is “raspberry“.  SSH (
 
 2. Extract the contents of the .zip file onto your computer.
 
-3. Connect your microSD card reader with the formatted microSD inserted to your computer. (If you haven't formatted your micro SD card, you can use Raspberry Pi Imager to do so.)
+3. Connect your micro SD card reader with the formatted micro SD card inserted to your computer. (If you haven't formatted your micro SD card, you can use Raspberry Pi Imager to do so.)
 
 4. Launch Raspberry Pi Imager. 
 - Under "Operating System," click **CHOOSE OS**. When prompted, select the **Use custom** option. Locate and select **remote.itPi.img** that you extracted from the .zip file.
 - Under "SD Card," click **CHOOSE SD CARD**. When prompted, select your formatted micro SD card.
-- Click **WRITE** to begin writing the remote.itPi image onto the microSD. This process will take a few minutes. 
+- Click **WRITE** to begin writing the remote.itPi image onto the micro SD card. This process will take a few minutes. 
 
    <img src="https://user-images.githubusercontent.com/42136920/79465318-2543a180-8036-11ea-8a50-a47578932725.png" width="700">
 
