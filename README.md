@@ -46,7 +46,7 @@ The remote.itPi OS default user is “pi“, password is “raspberry“.  SSH (
 - Note: If your device isn't detected after a few search attempts, make sure your Wi-Fi credentials are correct in the **wpa_supplicant.conf** file (if the device is connected Wi-Fi) or that the Ethernet is connected properly. 
    <img src="https://user-images.githubusercontent.com/42136920/79466963-368dad80-8038-11ea-8f1b-2e678523d9ce.png" width="700">  
 
-10. After scanning completes, you will see something like "1/1" or "1/2" above the displayed remote.itPi details.  That represents (current device)/(total devices) on your LAN.  The first one may or may not be your Raspberry Pi.  Use the forward ( > ) and back ( < ) arrows to locate the new device if more than one is found.  Once you find your new remote.itPi, click **CONNECT** to connect to it.  
+10. After scanning completes, you will see something like "1 of 1" or "1 of 2" above the displayed remote.itPi details.  That represents "(current device) of (total devices)" which were found on your LAN.  The first one may or may not be your Raspberry Pi.  Use the forward ( > ) and back ( < ) arrows to locate your new device if more than one is found.  Once you find your new remote.itPi, click **CONNECT** to connect to it.  
     <img src="https://user-images.githubusercontent.com/42136920/79839988-3ef73700-83f0-11ea-8d2e-fb1d59e1f89f.png" width="700">  
 
 11. You will be prompted to log in to your remote.it account. If you have not created a remote.it account, click "Create an account" to create one.  
