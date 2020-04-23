@@ -53,7 +53,9 @@ The remote.itPi OS default user is “pi“, password is “raspberry“.  SSH(p
 12. Once you log in, you will be prompted to register your remote.itPi by providing a name for it. Enter a name, then click **REGISTER**.  
     <img src="https://user-images.githubusercontent.com/42136920/79590723-7032e700-8112-11ea-8a38-7d3d4f3cca97.png" width="700">  
   
-    <img src="https://user-images.githubusercontent.com/42136920/79591959-3cf15780-8114-11ea-8d5e-c9b2c01a4edf.png" width="700">  
+    <img src="https://user-images.githubusercontent.com/42136920/80101800-de612900-85ac-11ea-82ae-4b5cc6bab2bc.png" width="700">  
+  
+    <img src="https://user-images.githubusercontent.com/42136920/80101913-06e92300-85ad-11ea-8709-99c53d958297.png" width="700">  
 
 13. Congratulations! Your remote.itPi is now registered to remote.it! You can now connect to your remote.itPi from any device with remote.it installed.  
 
