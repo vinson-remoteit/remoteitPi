@@ -30,7 +30,7 @@ The remote.itPi OS default user is “pi“, password is “raspberry“.  SSH (
    <img src="https://user-images.githubusercontent.com/42136920/79465318-2543a180-8036-11ea-8a50-a47578932725.png" width="700">
 
 5. If you plan on connecting the remote.itPi device to the internet via Ethernet, you can skip this step and continue to Step 6. If you plan on connecting the remote.itPi device to the internet via Wi-Fi, follow the instructions below:
-- Navigate to the micro SD card's **/boot** directory and open **wpa_supplicant.conf** in a text editor. If you don't see the **/boot** directory, you may need to re-mount to micro SD card.
+- Navigate to the micro SD card's **/boot** directory and open **wpa_supplicant.conf** in a text editor. If you don't see the **/boot** directory, you may need to remove the micro SD card from the slot, then re-insert it.
 - On the line that says ```ssid="YOUR SSID"```, replace ```YOUR SSID``` with the name of your Wi-Fi network. (Example: ```ssid="MyWiFi123"```)
 - On the line that says ```psk="YOUR PASSPHRASE"```, replace ```YOUR PASSPHRASE``` with the password for your Wi-Fi network.(Example: ```psk="P@ssword"```)
 - On the line that says ```country=US```, replace ```US``` with your country code. A list of Wi-Fi country codes can be found [here](https://github.com/recalbox/recalbox-os/wiki/Wifi-country-code-(EN)).
