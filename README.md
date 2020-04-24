@@ -35,6 +35,9 @@ The remote.itPi OS default user is “pi“, password is “raspberry“.  SSH (
 - On the line that says ```psk="YOUR PASSPHRASE"```, replace ```YOUR PASSPHRASE``` with the password for your Wi-Fi network.(Example: ```psk="P@ssword"```)
 - On the line that says ```country=US```, replace ```US``` with your country code. A list of Wi-Fi country codes can be found [here](https://github.com/recalbox/recalbox-os/wiki/Wifi-country-code-(EN)).
 - Save the file.
+- Locate the **/boot** directory on your computer's file directory.
+- Right-click the **/boot** directory to access the menu.
+- Click **Eject** to eject the micro SD card reader from your computer.
      
    <img src="https://user-images.githubusercontent.com/42136920/79466585-be26ec80-8037-11ea-866f-b2a86358ca24.png" width="700">
    
